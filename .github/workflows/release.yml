@@ -36,6 +36,7 @@ jobs:
                   git lfs install 
                   git lfs fetch
                   git lfs checkout
+                  chmod +x gradlew
                   ./gradlew release
 
             - name: Publish Release on GitHub
@@ -47,4 +48,4 @@ jobs:
                   draft: false
                   prerelease: false
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  artifacts: "stelnet*.zip"
+                  artifacts: "*.zip"
