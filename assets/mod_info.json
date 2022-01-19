@@ -5,7 +5,7 @@
     "utility": true,
     "version": "1.0.0",
     "description": "Log less, only warnings and above.",
-    "gameVersion": "0.95a-RC15",
+    "gameVersion": "0.95.1a-RC6",
     "modPlugin": "shush.ShushMod",
     "jars": ["shush.jar"]
 }

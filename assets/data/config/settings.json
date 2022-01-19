@@ -1,0 +1,6 @@
+{
+    # Affects everything, vanilla and mods
+    "rootLogLevel": "INFO",
+    # Affects just vanilla
+    "vanillaLogLevel": "WARN"
+}
