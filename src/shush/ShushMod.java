@@ -1,7 +1,6 @@
 package shush;
 
 import com.fs.starfarer.api.BaseModPlugin;
-
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
