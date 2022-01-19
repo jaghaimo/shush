@@ -1,13 +1,11 @@
 {
-    "id": "mymodid",
-    "name": "My Starsector Mod",
-    "author": "My Name",
+    "id": "shush",
+    "name": "Shush, Be Quiet",
+    "author": "Jaghaimo",
     "utility": true,
     "version": "1.0.0",
-    "description": "This is my mod that mods the game.",
+    "description": "Log less, only warnings and above.",
     "gameVersion": "0.95a-RC15",
-    "modPlugin": "mymodid.MymodMod",
-    "jars": [
-        "mymodid.jar"
-    ]
+    "modPlugin": "shush.ShushMod",
+    "jars": ["shush.jar"]
 }
